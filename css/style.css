@@ -1,0 +1,407 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;700&family=Karla:ital,wght@0,200;0,300;0,400;1,200;1,300&family=VT323&display=swap");
+/*vars*/
+/*mixins*/
+/*funcs*/
+* {
+  font-size: 16px;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #000;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+::-moz-selection {
+  background: #000;
+  color: #fff;
+}
+
+::selection {
+  background: #000;
+  color: #fff;
+}
+
+::-webkit-selection {
+  background: #000;
+  color: #fff;
+}
+
+/* MOUSE CURSOR */
+.cursor {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  transition-duration: 0.3s;
+  transition-property: background-color, transform;
+  background-size: cover;
+  z-index: 10000;
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 9px;
+  line-height: 1.2;
+}
+.cursor-grow--show {
+  transform: scale(4.5);
+  background-color: #000;
+}
+.cursor-grow--show::after {
+  transform: scale(0.3);
+  content: "MORE";
+  display: block;
+  color: #fff;
+  font-weight: 700;
+}
+.cursor-grow--show.blue {
+  background-color: blue;
+}
+.cursor-grow--show.blue::after {
+  color: #fff;
+}
+.cursor.blue {
+  background-color: blue;
+}
+
+.f-kv {
+  font-family: "Be Vietnam Pro";
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 0.8;
+  vertical-align: top;
+}
+@media screen and (max-width: 1281px) {
+  .f-kv {
+    font-family: "Be Vietnam Pro";
+    font-size: 3rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 0.8;
+  }
+}
+@media screen and (max-width: 800px) {
+  .f-kv {
+    font-family: "Be Vietnam Pro";
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 0.8;
+  }
+}
+
+.f-h1 {
+  font-family: "Be Vietnam Pro";
+  font-size: 7.451rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h2 {
+  font-family: "Be Vietnam Pro";
+  font-size: 5.96rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h3 {
+  font-family: "Be Vietnam Pro";
+  font-size: 4.768rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h4 {
+  font-family: "Be Vietnam Pro";
+  font-size: 3.815rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-title {
+  font-family: "Be Vietnam Pro";
+  font-size: 3.052rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-subtitle {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.563rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-p {
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+}
+
+.f-capt {
+  font-family: "Be Vietnam Pro";
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+}
+
+body {
+  color: #fff;
+  background-color: #000;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 101;
+}
+header .inner {
+  transition: color 0.3s linear;
+  width: 50%;
+  margin: 3.75em auto;
+  max-width: 1920px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+header .inner .__left {
+  display: flex;
+  align-items: flex-start;
+}
+@media screen and (max-width: 1281px) {
+  header .inner {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  header .inner {
+    width: 90%;
+  }
+}
+
+.main-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1.875em;
+  position: relative;
+}
+.main-section .__tit-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.main-section .__tit-cont span {
+  position: relative;
+}
+.main-section .__tit-cont span em {
+  position: absolute;
+  top: 0.9375em;
+  left: -1.25em;
+}
+.main-section .__img-cont {
+  position: relative;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+.main-section .__img-cont img {
+  transition-property: opacity;
+  transition-duration: 0.3s;
+  opacity: 0;
+  display: block;
+  height: calc(33.3333333333vh - 2.5em);
+  max-width: 18%;
+  width: -moz-fit-content;
+  width: fit-content;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.main-section .__img-cont img.show {
+  opacity: 1;
+}
+
+.marquee-section {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  border-top: 1px solid #000;
+  width: 100vw;
+  height: 3.125em;
+  border-top: 1px solid blue;
+  color: #fff;
+  display: flex;
+  align-items: center;
+}
+.marquee-section .inner {
+  width: -moz-fit-content;
+  width: fit-content;
+  display: flex;
+  position: relative;
+  font-size: 1.25em;
+  transform: translate3d(-33.333333%, 0, 0);
+  display: flex;
+  gap: 0.625em;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+  animation: marquee 13s linear infinite;
+}
+.marquee-section .inner span {
+  display: block;
+  width: -moz-fit-content;
+  width: fit-content;
+  white-space: nowrap;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translate3d(-33.333333%, 0, 0);
+  }
+  100% {
+    transform: translate3d(-66.666666%, 0, 0);
+  }
+}
+.bg-color {
+  transition-property: background;
+  transition-duration: 1s;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.video-loader {
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 100;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.video-loader img {
+  width: 62.5em;
+  display: block;
+}
+.video-loader span {
+  display: block;
+  margin-top: -2.5em;
+  font-style: italic;
+}
+
+.menu-section {
+  width: 100%;
+  position: sticky;
+  top: 0;
+  left: 0;
+  margin-top: 9.875em;
+}
+.menu-section .inner {
+  width: 98%;
+  margin: 0 auto;
+  padding: 2.75em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  transition: color 0.3s linear;
+}
+.menu-section .inner a {
+  text-align: center;
+  display: inline-block;
+}
+.menu-section .inner a:first-of-type {
+  text-align: left;
+}
+.menu-section .inner a:last-of-type {
+  text-align: right;
+}
+
+.works-section {
+  width: 50%;
+  margin: 18.75em auto;
+}
+@media screen and (max-width: 1281px) {
+  .works-section {
+    width: 70%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .works-section {
+    width: 90%;
+  }
+}
+.works-section .works-cont {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 21.875em;
+  align-items: center;
+}
+.works-section .works-cont .work {
+  width: 100%;
+  height: auto;
+}
+.works-section .works-cont .work img, .works-section .works-cont .work video {
+  display: block;
+  width: 100%;
+}
+@media screen and (max-width: 800px) {
+  .works-section .works-cont {
+    row-gap: 9.375em;
+  }
+}
+
+.cursor video.hidden-vid {
+  display: none;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cursor.showvid {
+  width: 62.5em;
+  height: 62.5em;
+  border-radius: 31.25em;
+  overflow: hidden;
+}
+.cursor.showvid video {
+  display: block;
+}/*# sourceMappingURL=style.css.map */

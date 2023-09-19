@@ -1,0 +1,64 @@
+* {
+    font-size: $basefontsize;
+}
+html, body {
+    @include init;
+    color: $color-black;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+::-moz-selection {
+    background: $color-black;
+    color: #fff;
+ }
+ ::selection {
+    background: $color-black;
+    color: #fff;
+ }
+ ::-webkit-selection {
+    background: $color-black;
+    color: #fff;
+ }
+ 
+/* MOUSE CURSOR */
+.cursor {
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    transition-duration: 0.3s;
+    transition-property: background-color, transform;
+    background-size: cover;
+    z-index: 10000;
+    background-color: $color-black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 9px;
+    line-height: 1.2;
+    &-grow--show {
+        transform: scale(4.5);
+        background-color: $color-black;
+        &::after {
+            transform: scale(0.3);
+            content: "MORE";
+            display: block;
+            color: #fff;
+            font-weight: 700;
+        }
+        &.blue {
+            background-color: blue;
+            &::after {
+                color: #fff;
+            }
+        }
+    }
+    &.blue {
+        background-color: blue;
+    }
+}

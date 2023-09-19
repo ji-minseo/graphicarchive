@@ -1,0 +1,72 @@
+.f-kv {
+  font-family: "Be Vietnam Pro";
+  font-size: 5rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 0.8;
+  vertical-align: top;
+}
+
+.f-h1 {
+  font-family: "Be Vietnam Pro";
+  font-size: 7.451rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h2 {
+  font-family: "Be Vietnam Pro";
+  font-size: 5.96rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h3 {
+  font-family: "Be Vietnam Pro";
+  font-size: 4.768rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-h4 {
+  font-family: "Be Vietnam Pro";
+  font-size: 3.815rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-title {
+  font-family: "Be Vietnam Pro";
+  font-size: 3.052rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-subtitle {
+  font-family: "Be Vietnam Pro";
+  font-size: 1.563rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+.f-p {
+  font-family: "Be Vietnam Pro";
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.6;
+}
+
+.f-capt {
+  font-family: "Be Vietnam Pro";
+  font-size: 0.7rem;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 1.5;
+}/*# sourceMappingURL=typo.css.map */
