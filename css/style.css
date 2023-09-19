@@ -198,7 +198,7 @@ header {
 }
 header .inner {
   transition: color 0.3s linear;
-  width: 50%;
+  width: 60%;
   margin: 3.75em auto;
   max-width: 1920px;
   display: flex;
@@ -373,7 +373,7 @@ header .inner .__left {
 }
 
 .works-section {
-  width: 50%;
+  width: 60%;
   margin: 18.75em auto;
 }
 @media screen and (max-width: 1281px) {
@@ -394,7 +394,7 @@ header .inner .__left {
   align-items: center;
 }
 .works-section .works-cont .work {
-  width: 48%;
+  width: 30%;
   height: auto;
 }
 .works-section .works-cont .work img, .works-section .works-cont .work video {
