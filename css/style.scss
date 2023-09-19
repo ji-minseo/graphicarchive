@@ -13,7 +13,7 @@ header {
     z-index: 101;
     .inner {
         transition: color .3s linear;
-        width: 60%;
+        width: 85%;
         margin: toEm(60px) auto;
         max-width: $wide-desktop;
         display: flex;
@@ -24,7 +24,10 @@ header {
             align-items: flex-start;
 
         }
-
+        @media screen and (min-width : 1600px) {
+            max-width: 850px;
+    
+        }
         @media screen and (max-width : $breakpoint-tablet) {
             width: 90%;
     
@@ -184,8 +187,11 @@ header {
     }
 }
 .works-section {
-    width: 60%;
-    margin: toEm(300px) auto;
+    width: 85%;
+    margin: toEm(170px) auto;
+    @media screen and (min-width : 1600px) {
+        max-width: 850px;
+    }
     @media screen and (max-width : $breakpoint-tablet) {
         width: 90%;
 
@@ -201,7 +207,7 @@ header {
         row-gap: toEm(60px);
         align-items: center;
         .work {
-            width: calc(30%);
+            width: calc(33%);
             height: auto;
             img, video {
                 display: block;
