@@ -13,7 +13,7 @@ header {
     z-index: 101;
     .inner {
         transition: color .3s linear;
-        width: 50%;
+        width: 60%;
         margin: toEm(60px) auto;
         max-width: $wide-desktop;
         display: flex;
@@ -183,7 +183,7 @@ header {
     }
 }
 .works-section {
-    width: 50%;
+    width: 60%;
     margin: toEm(300px) auto;
     @media screen and (max-width : $breakpoint-tablet) {
         width: 70%;
@@ -197,18 +197,21 @@ header {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        row-gap: toEm(350px);
+        row-gap: toEm(60px);
         align-items: center;
         .work {
-            width: calc(100%);
+            width: calc(30%);
             height: auto;
             img, video {
                 display: block;
                 width: 100%;
             }
+            @media screen and (max-width : $breakpoint-mobile) {
+                width: 100%;;
+            }
         }
         @media screen and (max-width : $breakpoint-mobile) {
-            row-gap: toEm(150px);
+            row-gap: toEm(50px);
         }
     }
 

@@ -1,22 +1,45 @@
 
 const section = document.querySelector('.works-cont')
-const tl = gsap.timeline({
-    scrollTrigger: {
-         trigger: section,
-         start: 'top top',
-         end: `bottom top`,
-         scrub: true,
-     }
-   });
+// const tl = gsap.timeline({
+//     scrollTrigger: {
+//          trigger: section,
+//          start: 'top top',
+//          end: `bottom top`,
+//          scrub: true,
+//      }
+//    });
 // tl.to(document.body, {backgroundColor: "#00FF29",opacity: 1,duration: .95, stagger:.1})
 //     .to(document.body, {backgroundColor: "0029FF" ,opacity: 1,duration: .95, stagger:.1})
 //     .to(document.body, {backgroundColor: "#DB00FF",opacity: 1,duration: .95, stagger:.1})
 //     .to(document.body, {backgroundColor: "FF00B8" ,opacity: 1,duration: .95, stagger:.1})
 //     .to(document.body, {backgroundColor: "#DBFF00",opacity: 1,duration: .95, stagger:.1})
 //     .to(document.body, {backgroundColor: "FFD9FD" ,opacity: 1,duration: .95, stagger:.1})
-    tl.to(document.body, {backgroundColor: "#FFE3F7",color: "#000",opacity: 1,duration: .95, stagger:.1})
-    .to(document.body, {backgroundColor: "#000AFF",color: "#fff",opacity: 1,duration: .95, stagger:.1})
+    // tl.to(document.body, {backgroundColor: "#FFE3F7",color: "#000",opacity: 1,duration: .95, stagger:.1})
+    // .to(document.body, {backgroundColor: "#000AFF",color: "#fff",opacity: 1,duration: .95, stagger:.1})
+    gsap.matchMedia({
+        "(max-width: 800px)" : () => {
+            const tl = gsap.timeline({
+                    scrollTrigger: {
+                         trigger: section,
+                         start: 'top top',
+                         end: `bottom top`,
+                         scrub: true,
+                     }
+                   });
+                tl.to(document.body, {color: "#00FF29",opacity: 1,duration: .95, stagger:.1})
+                    .to(document.body, {color: "#0029FF" ,opacity: 1,duration: .95, stagger:.1})
+                    .to(document.body, {color: "#DB00FF",opacity: 1,duration: .95, stagger:.1})
+                    .to(document.body, {color: "#FF00B8" ,opacity: 1,duration: .95, stagger:.1})
+                    .to(document.body, {color: "#DBFF00",opacity: 1,duration: .95, stagger:.1})
+                    .to(document.body, {color: "#FFD9FD" ,opacity: 1,duration: .95, stagger:.1})
+        }
+    })
 
+document.querySelectorAll('.works-section .work').forEach((el => {
+    el.addEventListener('mouseover', (e) => {
+        document.body.style.color = e.target.closest('.work').dataset.color
+    })
+}))
 
 // new Swiper('.collabs .swiper-container', {
 //     slidesPerView: 'auto',
