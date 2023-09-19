@@ -13,7 +13,7 @@ $basefont : 'Be Vietnam Pro';
     line-height: $line-height;
 }
 .f-kv {
-    @include defineFont(5rem, $medium, -0.02em, 0.8);
+    @include defineFont(3vw, $medium, -0.02em, 0.8);
     // font-style: italic;
     vertical-align: top;
 
