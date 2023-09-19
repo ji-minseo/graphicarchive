@@ -13,12 +13,12 @@ $basefont : 'Be Vietnam Pro';
     line-height: $line-height;
 }
 .f-kv {
-    @include defineFont(3vw, $medium, -0.02em, 0.8);
+    @include defineFont(3vw, 600, -0.02em, 0.8);
     // font-style: italic;
     vertical-align: top;
 
     @media screen and (max-width : $breakpoint-tablet) {
-        @include defineFont(3rem, $medium, -0.02em, 0.8);
+        @include defineFont(3rem, 600, -0.02em, 0.8);
 
     }
     @media screen and (max-width : $breakpoint-mobile) {
@@ -36,7 +36,7 @@ $basefont : 'Be Vietnam Pro';
     @include defineFont(4.768rem, $medium, -0.02em, 1.4);
 }
 .f-h4 {
-    @include defineFont(3.815rem, $medium, -0.02em, 1.4);
+    @include defineFont(1.5vw, $medium, -0.02em, 1.4);
     @media screen and (max-width : $breakpoint-tablet) {
         @include defineFont(2rem, $medium, -0.02em, 0.8);
 
