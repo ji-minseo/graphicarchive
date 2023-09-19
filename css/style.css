@@ -327,7 +327,7 @@ header .inner .__left {
   position: fixed;
   left: 0;
   top: 0;
-  z-index: 101;
+  z-index: 1000;
   background-color: #000;
   display: flex;
   align-items: center;
@@ -335,7 +335,7 @@ header .inner .__left {
   flex-direction: column;
 }
 .video-loader img {
-  width: 25em;
+  width: 12.5em;
   display: block;
 }
 .video-loader span {

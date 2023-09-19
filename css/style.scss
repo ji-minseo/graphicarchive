@@ -140,14 +140,14 @@ header {
     position: fixed;
     left: 0;
     top: 0;
-    z-index: 101;
+    z-index: 1000;
     background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     img {
-        width: toEm(400px);
+        width: toEm(200px);
         display: block;
     }
     span {
