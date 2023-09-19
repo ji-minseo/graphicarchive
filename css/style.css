@@ -328,14 +328,14 @@ header .inner .__left {
   left: 0;
   top: 0;
   z-index: 100;
-  background-color: white;
+  background-color: #000;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
 }
 .video-loader img {
-  width: 62.5em;
+  width: 25em;
   display: block;
 }
 .video-loader span {

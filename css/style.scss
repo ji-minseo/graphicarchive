@@ -141,13 +141,13 @@ header {
     left: 0;
     top: 0;
     z-index: 100;
-    background-color: white;
+    background-color: #000;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     img {
-        width: toEm(1000px);
+        width: toEm(400px);
         display: block;
     }
     span {
