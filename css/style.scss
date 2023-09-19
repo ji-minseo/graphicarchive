@@ -13,7 +13,7 @@ header {
     z-index: 101;
     .inner {
         transition: color .3s linear;
-        width: 60%;
+        width: 50%;
         margin: toEm(60px) auto;
         max-width: $wide-desktop;
         display: flex;
@@ -184,7 +184,7 @@ header {
     }
 }
 .works-section {
-    width: 60%;
+    width: 50%;
     margin: toEm(300px) auto;
     @media screen and (max-width : $breakpoint-tablet) {
         width: 90%;
@@ -201,7 +201,7 @@ header {
         row-gap: toEm(60px);
         align-items: center;
         .work {
-            width: calc(30%);
+            width: calc(48%);
             height: auto;
             img, video {
                 display: block;
