@@ -42,7 +42,7 @@ $basefont : 'Be Vietnam Pro';
     @include defineFont(4.768rem, $medium, -0.02em, 1.4);
 }
 .f-h4 {
-    @include defineFont(1.3vw, $medium, -0.02em, 0.8);
+    @include defineFont(1.1vw, $medium, -0.02em, 0.8);
     @media screen and (max-width : $breakpoint-tablet) {
         @include defineFont(1.5vw, $medium, -0.02em, 0.8);
 
