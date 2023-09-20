@@ -44,11 +44,11 @@ $basefont : 'Be Vietnam Pro';
 .f-h4 {
     @include defineFont(1.5vw, $medium, -0.02em, 0.8);
     @media screen and (max-width : $breakpoint-tablet) {
-        @include defineFont(2rem, $medium, -0.02em, 0.8);
+        @include defineFont(1.5vw, $medium, -0.02em, 0.8);
 
     }
     @media screen and (max-width : $breakpoint-mobile) {
-        @include defineFont(0.7rem, $medium, -0.02em, 0.8);
+        @include defineFont(1.5vw, $medium, -0.02em, 0.8);
 
     }
 }
