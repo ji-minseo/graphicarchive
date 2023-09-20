@@ -93,7 +93,7 @@ a {
 }
 .f-kv {
   font-family: "Be Vietnam Pro";
-  font-size: 1.9vw;
+  font-size: 1.5vw;
   font-weight: 500;
   letter-spacing: -0.02em;
   line-height: 0.8;
@@ -408,7 +408,7 @@ header .inner .__left {
 
 .works-section {
   width: 85%;
-  margin: 15.625em auto;
+  margin: 8.125em auto;
 }
 @media screen and (min-width: 1600px) {
   .works-section {
