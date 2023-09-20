@@ -408,7 +408,7 @@ header .inner .__left {
 
 .works-section {
   width: 85%;
-  margin: 6.25em auto;
+  margin: 6.875em auto;
 }
 @media screen and (min-width: 1600px) {
   .works-section {
