@@ -231,6 +231,10 @@ video.addEventListener('canplay', () => {
 
 })
 
+function showPage() {
+  document.querySelector(".video-loader").style.display = "none";
+}
+
 
 // function imgHover() {
 //     const imgs = document.querySelectorAll('.__img-cont .__img')
