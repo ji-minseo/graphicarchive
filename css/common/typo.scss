@@ -48,7 +48,7 @@ $basefont : 'Be Vietnam Pro';
 
     }
     @media screen and (max-width : $breakpoint-mobile) {
-        @include defineFont(1.5vw, $medium, -0.02em, 0.8);
+        @include defineFont(2.5vw, $medium, -0.02em, 0.8);
 
     }
 }
