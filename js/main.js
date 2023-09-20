@@ -223,14 +223,13 @@ window.addEventListener("mousemove", cursor);
 
 
 // VIDEO LOADING 
-setTimeout(() => {
-    showPage();
-  },700)
+const video = document.querySelector('.load-video')
 
+video.addEventListener('canplay', () => {
+  console.log('ready')
+  showPage();
 
-function showPage() {
-  document.querySelector(".video-loader").style.display = "none";
-}
+})
 
 
 // function imgHover() {
