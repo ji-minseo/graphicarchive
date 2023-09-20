@@ -237,7 +237,7 @@ header .inner .__left {
 }
 @media screen and (min-width: 1600px) {
   header .inner {
-    max-width: 1200px;
+    max-width: 850px;
   }
 }
 @media screen and (max-width: 1281px) {
@@ -409,7 +409,7 @@ header .inner .__left {
 }
 @media screen and (min-width: 1600px) {
   .works-section {
-    max-width: 1200px;
+    max-width: 850px;
   }
 }
 @media screen and (max-width: 1281px) {
