@@ -4,6 +4,7 @@ body {
     color: #fff;
     background-color: #000;
 }
+
 header {
     position: fixed;
     top: 0;
@@ -27,7 +28,7 @@ header {
         @media screen and (min-width : 1600px) {
             max-width: 1200px;
 
-            
+
         }
         @media screen and (max-width : $breakpoint-tablet) {
             width: 90%;
