@@ -17,7 +17,7 @@ $basefont : 'Be Vietnam Pro';
     // font-style: italic;
     vertical-align: top;
     @media screen and (min-width : 1600px) {
-        @include defineFont(1.3rem, $medium, -0.02em, 0.8);
+        @include defineFont(1.5rem, $medium, -0.02em, 0.8);
     }
 
     @media screen and (max-width : $breakpoint-tablet) {
