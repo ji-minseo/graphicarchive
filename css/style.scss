@@ -189,13 +189,13 @@ header {
     }
 }
 .works-section {
-    width: 85%;
+    width: 35%;
     margin: toEm(150px) auto;
     @media screen and (min-width : 1600px) {
         max-width: 1200px;
     }
     @media screen and (max-width : $breakpoint-tablet) {
-        width: 90%;
+        width: 50%;
 
     }
     @media screen and (max-width : $breakpoint-mobile) {
@@ -209,9 +209,9 @@ header {
         row-gap: toEm(60px);
         align-items: center;
         .work {
-            width: calc(33%);
+            width: calc(100%);
             height: fit-content;
-            padding-bottom: 33%;
+            padding-bottom: 100%;
             position: relative;
             img, video {
                 position: absolute;

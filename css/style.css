@@ -407,7 +407,7 @@ header .inner .__left {
 }
 
 .works-section {
-  width: 85%;
+  width: 35%;
   margin: 9.375em auto;
 }
 @media screen and (min-width: 1600px) {
@@ -417,7 +417,7 @@ header .inner .__left {
 }
 @media screen and (max-width: 1281px) {
   .works-section {
-    width: 90%;
+    width: 50%;
   }
 }
 @media screen and (max-width: 800px) {
@@ -433,10 +433,10 @@ header .inner .__left {
   align-items: center;
 }
 .works-section .works-cont .work {
-  width: 33%;
+  width: 100%;
   height: -moz-fit-content;
   height: fit-content;
-  padding-bottom: 33%;
+  padding-bottom: 100%;
   position: relative;
 }
 .works-section .works-cont .work img, .works-section .works-cont .work video {
