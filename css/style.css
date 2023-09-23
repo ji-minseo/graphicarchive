@@ -407,7 +407,7 @@ header .inner .__left {
 }
 
 .works-section {
-  width: 35%;
+  width: 85%;
   margin: 9.375em auto;
 }
 @media screen and (min-width: 1600px) {
@@ -433,10 +433,10 @@ header .inner .__left {
   align-items: center;
 }
 .works-section .works-cont .work {
-  width: 100%;
+  width: 33%;
   height: -moz-fit-content;
   height: fit-content;
-  padding-bottom: 100%;
+  padding-bottom: 33%;
   position: relative;
 }
 .works-section .works-cont .work img, .works-section .works-cont .work video {
@@ -444,8 +444,13 @@ header .inner .__left {
   display: block;
   width: 100%;
   height: 100%;
+  transition: transform 0.1s linear;
   -o-object-fit: cover;
      object-fit: cover;
+}
+.works-section .works-cont .work img:hover, .works-section .works-cont .work video:hover {
+  transform: scale(1.5);
+  z-index: 100;
 }
 @media screen and (max-width: 800px) {
   .works-section .works-cont .work {

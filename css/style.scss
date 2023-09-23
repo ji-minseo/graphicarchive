@@ -189,7 +189,7 @@ header {
     }
 }
 .works-section {
-    width: 35%;
+    width: 85%;
     margin: toEm(150px) auto;
     @media screen and (min-width : 1600px) {
         max-width: 1200px;
@@ -209,17 +209,21 @@ header {
         row-gap: toEm(60px);
         align-items: center;
         .work {
-            width: calc(100%);
+            width: calc(33%);
             height: fit-content;
-            padding-bottom: 100%;
+            padding-bottom: 33%;
             position: relative;
             img, video {
                 position: absolute;
                 display: block;
                 width: 100%;
                 height: 100%;
-
+                transition: transform .1s linear;
                 object-fit: cover;
+                &:hover {
+                    transform: scale(1.5);
+                    z-index: 100;
+                }
             }
             @media screen and (max-width : $breakpoint-mobile) {
                 width: 100%;
