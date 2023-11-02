@@ -417,7 +417,7 @@ header .inner .__left {
 }
 @media screen and (max-width: 1023px) {
   .works-section {
-    width: 50%;
+    width: 90%;
   }
 }
 @media screen and (max-width: 767px) {
