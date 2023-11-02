@@ -109,7 +109,7 @@ a {
     line-height: 0.8;
   }
 }
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1023px) {
   .f-kv {
     vertical-align: top;
     font-family: "Be Vietnam Pro";
@@ -119,7 +119,7 @@ a {
     line-height: 0.8;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .f-kv {
     vertical-align: top;
     font-family: "Be Vietnam Pro";
@@ -161,7 +161,7 @@ a {
   letter-spacing: -0.02em;
   line-height: 0.8;
 }
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1023px) {
   .f-h4 {
     font-family: "Be Vietnam Pro";
     font-size: 1.5vw;
@@ -170,7 +170,7 @@ a {
     line-height: 0.8;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .f-h4 {
     font-family: "Be Vietnam Pro";
     font-size: 2.5vw;
@@ -243,12 +243,12 @@ header .inner .__left {
     max-width: 1200px;
   }
 }
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1023px) {
   header .inner {
     width: 90%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   header .inner {
     width: 90%;
   }
@@ -415,12 +415,12 @@ header .inner .__left {
     max-width: 1200px;
   }
 }
-@media screen and (max-width: 1281px) {
+@media screen and (max-width: 1023px) {
   .works-section {
     width: 50%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .works-section {
     width: 90%;
   }
@@ -452,13 +452,13 @@ header .inner .__left {
   transform: scale(1.5);
   z-index: 100;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .works-section .works-cont .work {
     width: 100%;
     padding-bottom: 100%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 767px) {
   .works-section .works-cont {
     row-gap: 3.125em;
   }
