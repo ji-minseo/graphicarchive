@@ -229,7 +229,6 @@ header .inner {
   transition: color 0.3s linear;
   width: 85%;
   margin: 3.75em auto;
-  max-width: 1920px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -407,13 +406,8 @@ header .inner .__left {
 }
 
 .works-section {
-  width: 85%;
+  width: 100%;
   margin: 9.375em auto;
-}
-@media screen and (min-width: 1600px) {
-  .works-section {
-    max-width: 1200px;
-  }
 }
 @media screen and (max-width: 1023px) {
   .works-section {

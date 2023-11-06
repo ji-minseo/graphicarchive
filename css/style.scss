@@ -16,7 +16,7 @@ header {
         transition: color .3s linear;
         width: 85%;
         margin: toEm(60px) auto;
-        max-width: $wide-desktop;
+        // max-width: $wide-desktop;
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
@@ -189,10 +189,10 @@ header {
     }
 }
 .works-section {
-    width: 85%;
+    width: 100%;
     margin: toEm(150px) auto;
     @media screen and (min-width : 1600px) {
-        max-width: 1200px;
+        // max-width: 1200px;
     }
     @media screen and (max-width : $breakpoint-tablet) {
         width: 90%;
