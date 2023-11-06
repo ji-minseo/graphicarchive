@@ -20,6 +20,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: flex-start;
+        word-break: keep-all;
         .__left {
             display: flex;
             align-items: flex-start;

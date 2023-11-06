@@ -232,6 +232,7 @@ header .inner {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  word-break: keep-all;
 }
 header .inner .__left {
   display: flex;
