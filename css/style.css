@@ -237,11 +237,6 @@ header .inner .__left {
   display: flex;
   align-items: flex-start;
 }
-@media screen and (min-width: 1600px) {
-  header .inner {
-    max-width: 1200px;
-  }
-}
 @media screen and (max-width: 1023px) {
   header .inner {
     width: 90%;
