@@ -215,6 +215,8 @@ a {
 body {
   color: #fff;
   background-color: #000;
+  max-width: 100vw;
+  overflow-x: hidden;
 }
 
 header {
