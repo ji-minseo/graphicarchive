@@ -206,6 +206,7 @@ header {
     .works-cont {
         display: flex;
         flex-wrap: wrap;
+        overflow-x: hidden;
         justify-content: space-between;
         row-gap: toEm(60px);
         align-items: center;

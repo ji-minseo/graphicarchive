@@ -418,6 +418,7 @@ header .inner .__left {
 .works-section .works-cont {
   display: flex;
   flex-wrap: wrap;
+  overflow-x: hidden;
   justify-content: space-between;
   row-gap: 3.75em;
   align-items: center;
