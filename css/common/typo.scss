@@ -3,7 +3,7 @@
 $regular : 400;
 $medium : 500;
 $bold : 700;
-$basefont : 'Be Vietnam Pro';
+$basefont : 'Diphylleia';
 
 @mixin defineFont($size,$weight,$letter-spacing,$line-height){
     font-family: $basefont;

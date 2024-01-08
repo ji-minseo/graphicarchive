@@ -92,7 +92,7 @@ a {
   }
 }
 .f-kv {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 1.5vw;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -102,7 +102,7 @@ a {
 @media screen and (min-width: 1600px) {
   .f-kv {
     vertical-align: top;
-    font-family: "Be Vietnam Pro";
+    font-family: "Diphylleia";
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -112,7 +112,7 @@ a {
 @media screen and (max-width: 1023px) {
   .f-kv {
     vertical-align: top;
-    font-family: "Be Vietnam Pro";
+    font-family: "Diphylleia";
     font-size: 2.2vw;
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -122,7 +122,7 @@ a {
 @media screen and (max-width: 767px) {
   .f-kv {
     vertical-align: top;
-    font-family: "Be Vietnam Pro";
+    font-family: "Diphylleia";
     font-size: 1.3rem;
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -131,7 +131,7 @@ a {
 }
 
 .f-h1 {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 7.451rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -139,7 +139,7 @@ a {
 }
 
 .f-h2 {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 5.96rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -147,7 +147,7 @@ a {
 }
 
 .f-h3 {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 4.768rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -155,7 +155,7 @@ a {
 }
 
 .f-h4 {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 1.1vw;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -163,7 +163,7 @@ a {
 }
 @media screen and (max-width: 1023px) {
   .f-h4 {
-    font-family: "Be Vietnam Pro";
+    font-family: "Diphylleia";
     font-size: 1.5vw;
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -172,7 +172,7 @@ a {
 }
 @media screen and (max-width: 767px) {
   .f-h4 {
-    font-family: "Be Vietnam Pro";
+    font-family: "Diphylleia";
     font-size: 2.5vw;
     font-weight: 500;
     letter-spacing: -0.02em;
@@ -181,7 +181,7 @@ a {
 }
 
 .f-title {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 3.052rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -189,7 +189,7 @@ a {
 }
 
 .f-subtitle {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 1.563rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -197,7 +197,7 @@ a {
 }
 
 .f-p {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 1rem;
   font-weight: 500;
   letter-spacing: -0.02em;
@@ -205,7 +205,7 @@ a {
 }
 
 .f-capt {
-  font-family: "Be Vietnam Pro";
+  font-family: "Diphylleia";
   font-size: 0.7rem;
   font-weight: 500;
   letter-spacing: -0.02em;
