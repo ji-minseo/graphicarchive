@@ -36,6 +36,9 @@ header {
         }
         @media screen and (max-width : $breakpoint-tablet) {
             width: 90%;
+            .__center, .__right {
+                display: none;
+            }
     
         }
         @media screen and (max-width : $breakpoint-mobile) {
@@ -61,6 +64,13 @@ header {
         justify-content: space-between;
         align-items: flex-start;
         word-break: keep-all;
+        @media screen and (max-width : $breakpoint-tablet) {
+            width: 90%;
+        }
+        @media screen and (max-width : $breakpoint-mobile) {
+            width: 90%;
+    
+        }
     }
 }
 

@@ -245,6 +245,9 @@ header .inner .__left {
   header .inner {
     width: 90%;
   }
+  header .inner .__center, header .inner .__right {
+    display: none;
+  }
 }
 @media screen and (max-width: 767px) {
   header .inner {
@@ -269,6 +272,16 @@ header .inner .__left {
   justify-content: space-between;
   align-items: flex-start;
   word-break: keep-all;
+}
+@media screen and (max-width: 1023px) {
+  .logo-section .inner {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 767px) {
+  .logo-section .inner {
+    width: 90%;
+  }
 }
 
 .main-section {
