@@ -14,10 +14,11 @@ header {
     transform: translateX(-50%);
     width: 100vw;
     z-index: 101;
+    border-bottom: 1px solid #fff;
     .inner {
         transition: color .3s linear;
-        width: 85%;
-        margin: toEm(60px) auto;
+        width: 98%;
+        margin: toEm(30px) auto;
         // max-width: $wide-desktop;
         display: flex;
         justify-content: space-between;
@@ -41,6 +42,25 @@ header {
             width: 90%;
     
         }
+    }
+}
+.logo-section {
+    width: 100vw;
+    position: fixed;
+    top: toEm(100px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100vw;
+    z-index: 101;
+    .inner {
+        transition: color .3s linear;
+        width: 98%;
+        margin: toEm(30px) auto;
+        // max-width: $wide-desktop;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        word-break: keep-all;
     }
 }
 
@@ -193,7 +213,7 @@ header {
 }
 .works-section {
     width: 100%;
-    margin: toEm(150px) auto;
+    margin: toEm(200px) auto;
     @media screen and (min-width : 1600px) {
         // max-width: 1200px;
     }

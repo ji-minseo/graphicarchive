@@ -226,11 +226,12 @@ header {
   transform: translateX(-50%);
   width: 100vw;
   z-index: 101;
+  border-bottom: 1px solid #fff;
 }
 header .inner {
   transition: color 0.3s linear;
-  width: 85%;
-  margin: 3.75em auto;
+  width: 98%;
+  margin: 1.875em auto;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
@@ -249,6 +250,25 @@ header .inner .__left {
   header .inner {
     width: 90%;
   }
+}
+
+.logo-section {
+  width: 100vw;
+  position: fixed;
+  top: 6.25em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
+  z-index: 101;
+}
+.logo-section .inner {
+  transition: color 0.3s linear;
+  width: 98%;
+  margin: 1.875em auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  word-break: keep-all;
 }
 
 .main-section {
@@ -405,7 +425,7 @@ header .inner .__left {
 
 .works-section {
   width: 100%;
-  margin: 9.375em auto;
+  margin: 12.5em auto;
 }
 @media screen and (max-width: 1023px) {
   .works-section {
