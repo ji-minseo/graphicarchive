@@ -38,6 +38,7 @@ const section = document.querySelector('.works-cont')
 document.querySelectorAll('.works-section .work').forEach((el => {
     el.addEventListener('mouseover', (e) => {
         document.body.style.color = e.target.closest('.work').dataset.color
+        document.querySelector('header').style.borderBottom = `1px solid ${e.target.closest('.work').dataset.color}`
     })
 }))
 
