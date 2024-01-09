@@ -141,14 +141,14 @@ document.querySelectorAll('.works-section .work').forEach((el => {
 // }
 
 // // MOUSE CURSOR EFFECT
-let mouseCursor = document.querySelector(".cursor");
-  //window 객체에 scroll & mouse 이벤트를 추가하고 cursor함수 실행되도록 함
-  //커스텀 커서의 left값과 top값을 커서의 XY좌표값과 일치시킴
-const cursor = (e) => {
-    mouseCursor.style.left = e.pageX + "px";
-    mouseCursor.style.top = e.pageY + "px";
-}
-window.addEventListener("mousemove", cursor);
+// let mouseCursor = document.querySelector(".cursor");
+//   //window 객체에 scroll & mouse 이벤트를 추가하고 cursor함수 실행되도록 함
+//   //커스텀 커서의 left값과 top값을 커서의 XY좌표값과 일치시킴
+// const cursor = (e) => {
+//     mouseCursor.style.left = e.pageX + "px";
+//     mouseCursor.style.top = e.pageY + "px";
+// }
+// window.addEventListener("mousemove", cursor);
 
 
 // document.querySelector(".main-video").addEventListener("mouseover", () => {
